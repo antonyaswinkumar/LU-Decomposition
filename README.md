@@ -21,12 +21,12 @@ To write a program to find the LU Decomposition of a matrix.
 Developed by: Antony Aswin Kumar L
 RegisterNumber: 212225040024
 '''
-import numpy as np
-from scipy.linalg import lu
-A= np.array(eval(input()))
-P ,L ,U =lu(A)
-print(L)
-print(U)
+import numpy as np<br>
+from scipy.linalg import lu<br>
+A= np.array(eval(input()))<br>
+P ,L ,U =lu(A)<br>
+print(L)<br>
+print(U)<br>
 
 
 
@@ -39,6 +39,7 @@ RegisterNumber: 212225040024
 
 ## To print X matrix (solution to the equations)
 
+```
 import numpy as np
 from scipy.linalg import lu_factor , lu_solve
 A= np.array(eval(input()))
@@ -47,6 +48,7 @@ lu,piv =lu_factor(A)
 x=lu_solve ((lu,piv) , b)
 print(x)
 
+```
 
 ## Output:
 
