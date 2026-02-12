@@ -21,13 +21,14 @@ To write a program to find the LU Decomposition of a matrix.
 Developed by: Antony Aswin Kumar L
 RegisterNumber: 212225040024
 '''
+```
 import numpy as np<br>
 from scipy.linalg import lu<br>
 A= np.array(eval(input()))<br>
 P ,L ,U =lu(A)<br>
 print(L)<br>
 print(U)<br>
-
+```
 
 
 (ii) To find the LU Decomposition of a matrix
